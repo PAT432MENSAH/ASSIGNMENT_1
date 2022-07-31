@@ -1,0 +1,83 @@
+*{
+    padding: o;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+.inner-div-left{
+    flex: 0.5;  
+    background-image: url(./images/image-product-desktop.jpg);
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.inner-div-right{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 9px 0px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.cart{
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+.amount{
+    display: flex;
+    margin: 10px 20px;
+}
+h2{
+    color: hsl(158, 36%, 37%);
+    padding-right: 20px;
+}
+p{
+    color: rgb(99, 99, 99);
+    margin: 10px 20px;
+  
+}
+h4{
+    color: rgb(99, 99, 99);
+}
+h3{ 
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: rgb(99, 99, 99);
+    font-family: monospace;
+    font-weight: 100;
+    margin: 10px 20px;
+}
+h1{
+    margin: 10px 20px;
+    font-weight: 900;
+}
